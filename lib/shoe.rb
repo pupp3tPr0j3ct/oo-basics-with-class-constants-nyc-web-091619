@@ -9,12 +9,8 @@ class Shoe
     @brand = brand
     
     #need to shovel unique brand only
-    #BRANDS << brand
-  end
-  
-  def brand=(brand)
-    @brand = brand
     BRANDS << brand
+    if BRANDS.include?(brand) == false
   end
 
   def cobble
