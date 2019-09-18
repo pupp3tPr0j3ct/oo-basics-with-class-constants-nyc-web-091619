@@ -7,6 +7,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    
+    #need to shovel unique brand only
     BRANDS << brand
   end
 
@@ -17,4 +19,4 @@ class Shoe
   
 end # End of Shoe class
 
-#binding.pry
+binding.pry
