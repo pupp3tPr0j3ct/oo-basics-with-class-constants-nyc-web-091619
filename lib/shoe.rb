@@ -23,4 +23,4 @@ class Shoe
   
 end # End of Shoe class
 
-binding.pry
+#binding.pry
