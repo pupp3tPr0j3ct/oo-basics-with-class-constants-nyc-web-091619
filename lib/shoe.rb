@@ -9,6 +9,10 @@ class Shoe
     @brand = brand
     
     #need to shovel unique brand only
+    #BRANDS << brand
+  end
+  
+  def brand
     BRANDS << brand
   end
 
